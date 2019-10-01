@@ -1,0 +1,23 @@
+https://www.youtube.com/watch?v=L3ud3rXpIxA&list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu&index=8
+https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu&disable_polymer=true
+
+Stack implementation
+
+1) Used by undo mechanism in text editor.
+2) Used in complier checking for matching brackets and braces.
+3) Can be used to model a pile of books and plates.
+4) Used to support recursion by keeping track of previous function calls.
+5) Can be used to to depth first search (DFS) on graph.
+
+Complexity
+
+Pushing : O(1)
+Popping: O(1)
+Peeking: O(1)
+Searching: O(n)
+size: O(1)
+
+Example Brackets: Given a String made up of the following brackets () [] {} properly matched.
+{} --> Valid
+[{()}] ---> Valid
+{] --->Invalid

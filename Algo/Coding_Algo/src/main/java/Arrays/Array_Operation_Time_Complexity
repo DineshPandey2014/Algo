@@ -1,0 +1,31 @@
+Array Search :
+1. Array is not sorted: O(n) . We need to traverse complete array.
+2. If Array is sorted. Then we can use binary search
+   Time Complexity To Search In Sorted Array : log(n)
+
+Array Insert At End : O(1)
+
+Array Insert and Delete In the middle : O(n)
+
+Application:
+1. RainWater Tapping
+2. Stock Sell And Buy
+
+Sliding Window :
+
+Application :
+1. Finding maximum sum of K consecutive elements in an array.
+2. Finding subarray of Size K with given sum.
+3. Finding all Anagram in a String.
+4. Minimum window String.
+
+
+https://www.youtube.com/user/MindYourDecisions/videos
+
+Array Matrix
+1. Print matrix in snake pattern
+2. Finding Tranpose Of Matrix
+3. Rotate Matrix.
+
+Question : Given a sorted and counter clockwise rotated array and an element to be searched find the element in it.
+Input Array [] : {10,20,30,1,2,3,5}

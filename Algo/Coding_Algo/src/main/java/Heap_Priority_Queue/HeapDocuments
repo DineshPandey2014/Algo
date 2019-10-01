@@ -1,0 +1,96 @@
+https://www.youtube.com/watch?v=wptevk0bshY
+
+https://www.youtube.com/watch?v=Qmt0QwzEmh0&list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu
+
+#Good video for PQ and Heap
+https://www.youtube.com/watch?v=wptevk0bshY&list=PLDV1Zeh2NRsCLFSHm1nYb9daYf60lCcag
+https://www.youtube.com/watch?v=wptevk0bshY&list=PLDV1Zeh2NRsCLFSHm1nYb9daYf60lCcag
+
+#Heap algo
+https://www.youtube.com/watch?v=uuzVCZ-0rr8&list=PLSVu1-lON6Lwqj5nDqg8YyD7f4tjLMMBN&index=5
+
+#Heap
+https://www.youtube.com/watch?v=c1TpLRyQJ4w&list=PLTxllHdfUq4fMXqS6gCDWuWhiaRDVGsgu
+
+What is PQ ?
+
+Priority Queue :- A priority queue is an abstract data type (ADT) that operates similar to a normal queue except
+that each element has a certain priority queue determine the order in which elements are removed from the PQ.
+
+Note: Priority queues only supports comparable data meaning the data inserted into the priority queue must be able to
+be ordered in some way either from least to greates or greatest to least. This is so we are able to assign relatives
+priorites to each element.
+
+What is heap ?
+
+A heap or Binary heap is a Tree based data sgtructure that satisfies the heap invariant (also called heap property). If A is paretn
+node of B then A is ordered with respect to B for all nodes A, B in thr heap.
+
+Two type : Max heap Min Heap
+A priority queue is abstract data type.
+All heaps must be a tree. There is no cycle. Heap must be a tree.
+
+When and where is a PQ used ?
+
+1. Used in certain implementations of Dijkstra's  shortest path algorithm
+2. Anytime you need the dynamically fetch the next best or next worst element.
+3. Used in Huffman coding (Which is often used for lossless data comparison.
+4. Best First Search (BFS) algorithm such as A* use PQ's to continously grab the next most promosing node.
+5. Used by minimum Spanning Tree (MST) algorithms.
+
+
+Priority Queue implementaiton :-
+github.com/williamfiest/data-structures
+
+
+Ways of implementing a Priority Queue
+
+Priority queue are usually implemented with heaps since this gives them the best possible time complexity.
+
+The Priority queue (PQ) is an Abstract Data Type, hence heaps are not the only way to implement PQs. As an example
+We could use an unsorted list, but this would not give us the best possible time complexity.
+
+There are many types of heaps could use to implement priority queue including:
+1) Binary Heap
+2) Fibonacci Heap
+3) Binomial HEap
+4) Paring HEap
+
+We will use Binary Heap:-
+
+A binary heap is a binary Tree that supports the heap variant.In a binary tree every node has exactly two children.
+
+A complete binary tree is a tree in which at every level, except possibly the last is completely filled and all
+the nodes are as left as possible.
+
+Binary Heap Representation :-
+Using array is very convient.Insertion postion is the last postion in our array. Linked list can be use heap
+represntation.
+
+9--8--7--6--5--1--2 // Heap element
+
+0--1--2--3--4--5--6 // Array index representaiton
+
+                            9 (Index = 0)
+                         /     \
+                        /       \
+                       /         \
+          (Index =1)  8             7 (Index=2)
+                    /   \          /  \
+                   /     \        /    \
+                  /       \      /      \
+                 6(3)     5(4)   1(5)    2(6)
+
+
+Let i be the parent node index:
+
+Left child index: 2i +1
+Right child index: 2i + 2
+(Zero based index)
+
+HEaping operation : Bubblig up/Bubbling down.
+
+
+# Best videos https://www.youtube.com/watch?v=sfelLkcaHgI
+
+

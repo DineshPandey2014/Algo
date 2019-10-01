@@ -1,0 +1,77 @@
+// Good web site coding problems
+http://www.techiedelight.com/list-of-problems/
+
+// https://knaidu.gitbooks.io/problem-solving/recursion/palindromic_decomposition.html
+
+1) Heap sort is not stable ?
+   Answer : In this max is moving to last element. Here order is getting change
+
+2) Quick sort
+
+3) Tree :
+
+1) Height of complete binary tree of N  nodes.
+
+    h = height
+    N = nodes
+    d = degree (Maximumu of number of nodes) For binary tree it is 2. For treniary it is 3.
+
+    h = log base d (N)
+
+    For banary tree degree is 2
+
+  height of binary tree with N node= log base 2  ( N)
+
+
+
+2) Height of a complete terniary (k) tree of N nodes = log to base k (N)
+
+
+3) Height of binary tree with N nodes = log to base(d) N ----Range till  N
+
+4) Number of nodes in bainry tree of height h : h ranges to 2 raise to power h
+
+  If tree is skewed in one direction: h
+
+
+5)Number of nodes in a complete binary tree : 2 raise to power h
+
+6) Teee good videos for problem
+
+  Mirror image https://www.youtube.com/watch?v=UGzXSDZv-SY
+
+  # Tree good videos.
+  # AVL Tree
+  https://www.youtube.com/watch?v=uCy6ZAgH7KM
+
+  # Data structure algorithm
+  https://www.youtube.com/watch?v=Sst_VJCd8Nw&list=PLG9aCp4uE-s0W16umpGQZO686g8LgqsBe
+
+  # Data structure video
+  http://hackercs.com/videos/The-Tree-Abstract-Data-Type-ADT--Part-1/
+
+  https://www.youtube.com/user/Agilowen/videos
+
+
+  #Video How to prepare
+  https://www.youtube.com/watch?v=5KB5KAak6tM
+
+  # Best Puzzle videos
+  https://www.youtube.com/user/MindYourDecisions/playlists
+
+
+7) https://www.youtube.com/watch?v=as1f6PJmbAE&list=PLQ8yNWdQZuMMK_wJk37OT7VgmTT_sgDSt
+
+8) http://www.techiedelight.com/generate-permutations-string-java-recursive-iterative/
+
+9) Difference between ---> Subarray/ Substring/ Subsequence/ Subset
+
+http://www.techiedelight.com/generate-permutations-string-java-recursive-iterative/
+
+10) http://www.cnblogs.com/grandyang/p/5852352.html
+
+11) Good solution of leet code
+https://tonycao.gitbooks.io/leetcode-locked/content/LeetCode%20Locked/c1.7.html
+
+12)
+https://www.heapclub.org/

@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=EoisnPvUkOA&list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu&index=12
+
+Queue :-
+
+1) Any waiting models a queue for example a lineup at a movie theatre.
+2) Can be used to efficently keep track of the  x most recently added theatre.
+3) Web server request managment where you want first come first serve.
+4) Breadth first search BFS graph traversal.
+
+Queue operation :-
+
+1) Enqueue
+2) Dequeue
+3) Peeking
+4) Contains
+5) Removal
+6) isEmpty

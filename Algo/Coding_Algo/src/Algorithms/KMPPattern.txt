@@ -1,0 +1,32 @@
+
+public class CoumputeKMP {
+
+int getPrefixKMPArray(String pattern) {
+
+   char arrayPat [] = pattern.toCharArray();
+   int patternPrefixArray = new int[arrayPat.length];
+   int i = 0;
+   int j = 1;
+   patternPrefixArray[0] = 0;
+   
+   while(j<pattern.length) {
+     
+     if(arrayPat[i) == arrayPat[j]){
+       patternPrefixArray[i] = j + 1;
+       j++;
+       i++;
+     } else {
+    	 if(j != 0) {
+    	 
+        } else {
+        
+        }
+   
+   }
+
+}
+
+ 
+
+
+}

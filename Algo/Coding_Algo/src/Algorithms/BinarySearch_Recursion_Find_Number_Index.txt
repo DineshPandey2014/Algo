@@ -1,0 +1,30 @@
+
+public static void main(String args[]) {
+
+ int index = findNumber(arr, k,  0, arr.length -1);
+
+}
+  
+  public int findNumber (int [] arr, int k, int leftIndex, int rightIndex) {
+  	
+  	ind mid =  (leftIndex + rightIndex)/2;
+  	
+  	if(arr[mid] == k) {
+  		return mid;
+  	} 
+  		
+  	// Go right
+  	if(k > arr[mid]) {
+  	   findNumber(arr, k, mid + 1, rightIndex);
+  	}
+  	
+  	// Go left
+  	if(k < arr[mid]) {
+  		findNumber(arr, k, mid - 1, rightIndex);
+  	}
+  	
+  	
+  }
+  
+
+}

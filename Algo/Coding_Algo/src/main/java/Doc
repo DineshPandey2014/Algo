@@ -1,0 +1,42 @@
+#https://algorithms.tutorialhorizon.com
+
+#https://www.sigmainfy.com/blog/leetcode-longest-valid-parentheses.html
+
+
+# Good you tube video
+#https://www.youtube.com/channel/UCKvwPt6BifPP54yzH99ff1g/videos
+
+
+# Algo video
+https://www.youtube.com/channel/UCnC0QFWfAHL1XwjJoDk60GA
+
+# Good video
+https://www.youtube.com/watch?v=737YoUt31ZE
+
+
+# Best videos https://www.youtube.com/watch?v=sfelLkcaHgI
+https://www.youtube.com/watch?v=sfelLkcaHgI
+https://www.youtube.com/watch?v=sfelLkcaHgI
+
+Tree:
+
+Binary Tree
+
+Binary Tree: Binary treee can have at most 2 childeren.
+Height of binary Tree: Number of edges in the longest path from root to a leaf node.
+Height of Tree => Height of root.
+Height of tree with 1 node = 0;
+
+BST (Binary Serarch Tree)
+Height of BST (Binary Search Tree): h = logn (It's base 2) = 2^n;
+
+Successor in BST :
+
+Three Cases
+1) If node X have right sub tree
+      -: Successor will be minimum in that three.
+2) If node X doesn't have a right subtree and right child of it's parent.
+3) If node X doesn't have a right subtree and it is the left child of it's parent node.
+      -: Successor will be parent of node X.
+
+

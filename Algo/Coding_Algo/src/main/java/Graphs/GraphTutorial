@@ -1,0 +1,22 @@
+Graph
+
+# Good site fo rgraphs
+http://www.letscodethemup.com/graph-search-breadth-first-search/
+
+
+1) Number of vertices in the graph of n nodes. If there is no self loop and no multi edge.
+ Undirected Graph :- ((n)(n-1)/2)
+ Directed Graph:- (n)(n-1)
+
+ Example : Number of edges for Undirected graph having 10 nodes : (10) * (10 -1)/2 = 45 (half of directed graph)
+           Number of edges for Undirected graph having 10 nodes : (10) * (10 -1) = 90
+
+ 2)Graph is represented as Adjacency Matrix and Adjacency List
+
+ 3)Path : A sequence of vertices. Where each adjacent pair is connected by an edge. <A,B,F,H>
+
+ 4) Simple Path: A path in which no vertices is repeated and thus no edges repeated.
+
+ 5) Simple Cycle graph : Start and end at same vertex. No repeation other then start and end.
+
+ 6) Acyclic graph: A graph with no cycle. A tree a acyclic graph.

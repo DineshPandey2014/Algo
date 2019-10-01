@@ -1,0 +1,132 @@
+Negative Numbers
+
+1. Negative Numbers  in binary is represented as Two's complement.
+2. All the negative numbers start from 1 means leading number is 1.
+
+Positives Numbers :
+ 1. All the positive numbers start from 0 means leading number is zero.
+
+Let's say we represent the number in the three digits
+Conversion of positive numer that is decimal number 2, 4, 5 ---> Simply represent in the form binary number
+  2 --> 010
+  4 --> 100
+  6 --> 110
+  8 --> 1000
+
+Conversion of negative number to Binary number let's say represnt in three digits. It's equivalent to 2^3 - number
+                                                let's day represent in eights digits. It's equivalent to 2^8 - number
+
+  -2 -->  2^3 -2 => 8 -2 => 6 => 110
+  -4 ---> 2^3 -4 => 8 -4 => 4 => 100
+
+
+1) & ---> AND operator --> Returns true if and only of both arguments are true.
+
+2) | ---> Or operator ---> Returns true if and only if one arguments is true.
+
+3) ^ ---> Exclusive OR ---> Returns true if both arguments are diffetent.
+          Example : 1 ^ 0 => 1
+                     0 ^ 1 => 1
+                     0 ^ 0 => 0
+                     1 ^ 1 => 0
+
+4) ~ ---> Bit wise complement operator---> Negate operator.
+
+AND Operator (&)
+1) System.out.println(true & true) ---> true --> If operand is boolean the result will be boolean
+   System.out.println(true & false) ---> false
+   System.out.println(false & true) ---> false
+   System.out.println(false & false) ---> false
+
+OR Operator (|)
+2) System.out.println(true  | true) ---> true ---> if operand is boolean the result will be boolean
+   System.out.println(true  | false) ---> true
+   System.out.println(false | true) ---> true
+   System.out.println(false | false) ---> false
+
+Exclusive OR (^)
+3) System.out.println(true  | true) ---> false --> if operand is boolean the result will be boolean
+   System.out.println(false  | true) ---> true
+   System.out.println(true  | false) ---> true
+   System.out.println(false  | false) ---> true
+
+AND Operator (&)
+1) System.out.println(4 & 5)  If operand is number the result will be number
+
+   Binary Representaiton of 4 is = 100
+   Binary Representaiton of 5 is = 101
+
+   System.out.println(100 & 101) => 100 => 4
+
+OR Operator (|)
+2) System.out.println(4 | 5)  If operand is number the result will be number
+
+   Binary Representaiton of 4 is = 100
+   Binary Representaiton of 5 is = 101
+
+   System.out.println(100 | 101) => 101 => 5
+
+Exclusive OR ^ Operator (^)
+2) System.out.println(4 ^ 5)  If operand is number the result will be number
+   If two bits are different then they are one other wise they are zero.
+
+   Binary Representaiton of 4 is = 100
+   Binary Representaiton of 5 is = 101
+
+   System.out.println(100 | 101) => 001=> 1
+
+ Right Shift Operator : Remove the digit from right. Means division by 2
+ int x = 4 make right shift by 1
+
+ int x = 4
+ int y = x >> 1
+         (Shift by one digit right)
+       = 1 0 0 >> 1 = 1 0 (So right shift means division by 2 = 4/2 = 2 = 10)
+
+        (Shift by two digit)
+       = 1 0 0 >> 2 = 1 (So right shift means division by 2 = 4/2 = 2 and then onemore shift by one digit 2/2 = 1)
+
+
+
+Left Shift Operator : Add the digit to right. Means multiple by 2
+int x = 4 make left shift by 1
+int x = 4
+
+int y = x << 1 (Left Shift by one digit by 1) => Multiple by 2
+      = 1 0 0 << 1 = 1 0 0 0 = 8 =  ( So left shift by 1 means multiple by 2)
+
+      = 1 0 0 << 2 = 1 0 0 0 0 = 16 = ( So left shift by 2 means multiple by 4)
+
+
+1) Set the bit in nth position-->: Setting the bit means if the number is 0 or 1 set it to 1
+                                If it is one don't do any thing.
+
+                                100110---> setting the bit at 4 postion is --> 101110
+
+2) Clearing the bit means if it is 1 make it 0:  1 --->0
+   If it is 0 it will remain 0 : 0 ----> 0
+
+3) Toggling the bit means change 1 to 0 and 0 to 1.
+
+4) Get the bit get the value at that postion.
+
+
+# Bit wise questions
+http://www.geekviewpoint.com/java/bitwise/set_bit
+
+# Bitwise video cracking code interview.
+https://www.youtube.com/watch?v=NLKQEOgBAnw
+
+https://www.youtube.com/watch?v=C95-S1jsbMo&list=PLTZbNwgO5ebrgkdJoiTU7FFuG8ThiQqmA&index=2
+
+
+# How to add and subtract in the bianry
+https://www.youtube.com/watch?v=CqU9Z3PSb6s
+
+#Two's complement
+https://www.youtube.com/watch?v=ZLA0Ahymiv8
+
+Interview Questions:
+
+1) IF two numbers are of opossite sign ?
+

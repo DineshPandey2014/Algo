@@ -1,0 +1,16 @@
+
+1) Conversion:    int to String , char to String, boolean to String, double to String, float to String
+
+   String.valueOf(int), String.valueOf(double), String.valueOf(char)
+
+2) Conversion: String to Character array.
+
+  String str = "testString";
+  char[] charArray = str.toCharArray();
+
+3) Character index and Character
+   String str = "testString";
+
+   char c = str.charAt(i);
+
+   int indexAsciiCode = str.charAt(i)
